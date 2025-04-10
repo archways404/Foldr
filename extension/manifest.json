@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Foldr",
+	"version": "1.0",
+	"description": "Sends the current tab URL to a backend and closes the tab.",
+	"permissions": ["tabs", "<all_urls>"],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_title": "Send & Close",
+		"default_icon": {
+			"16": "icons/icon.png"
+		}
+	}
+}
